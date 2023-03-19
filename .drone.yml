@@ -112,7 +112,7 @@ steps:
       - yarn --cwd ./web-client build
 
   - name: build
-    image: golang:1.16-buster
+    image: golang:1.20-buster
     pull: always
     depends_on: [ front ]
     commands:
@@ -124,7 +124,7 @@ steps:
       - ./bin/goreleaser build --debug --snapshot --rm-dist
 
   - name: release
-    image: golang:1.16-buster
+    image: golang:1.20-buster
     pull: always
     depends_on: [ build ]
     environment:
