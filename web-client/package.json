@@ -25,10 +25,10 @@
     "react-to-webcomponent": "1.5.1"
   },
   "devDependencies": {
-    "@babel/core": "7.13.15",
-    "@babel/plugin-transform-runtime": "7.15.0",
-    "@babel/preset-env": "7.15.6",
-    "@babel/preset-react": "7.13.13",
+    "@babel/core": "7.25.9",
+    "@babel/plugin-transform-runtime": "7.25.9",
+    "@babel/preset-env": "7.25.9",
+    "@babel/preset-react": "7.25.9",
     "@elastic/datemath": "5.0.3",
     "@module-federation/automatic-vendor-federation": "1.2.1",
     "@types/jest": "26.0.24",
